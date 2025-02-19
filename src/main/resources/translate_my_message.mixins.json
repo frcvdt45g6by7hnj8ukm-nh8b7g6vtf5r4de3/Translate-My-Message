@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kaleblangley.tmm.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "translate_my_message.refmap.json",
+  "mixins": [
+    "DisplayWindowMixin",
+    "ImmediateWindowHandlerMixin",
+    "LanguageMixin",
+    "ModLoaderMixin"
+  ],
+  "client": [
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
